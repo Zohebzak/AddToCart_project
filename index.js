@@ -27,7 +27,7 @@ container.innerHTML = dataArray.map((item, index) => `
 <div class="sub-main">
     <div class="inner-side" id='container'>
         <div class="quantity-2">
-            <input type="radio" id="radio-${index + 1}" name="quantity-radio" onchange="toggleDropdownData(${index + 1})"/>
+            <input type="radio" id="radio-${index + 1}" name="quantity-radio" onchange="toggleDropdownData(${index + 1})" />
             <p>${item.name}<br />DKK ${item.price.toFixed(2)}</p>
         </div>
         <del class="p2">${item.del}</del>
@@ -79,6 +79,8 @@ dropdownDataDivs.forEach(div => div.style.display = 'none');
 
 const dropdownData = document.getElementById(`dropdownData${selectedRadio}`);
 dropdownData.style.display = 'block';
+dropdownData.style.animation = 'expandAnimation 0.3s ease';
+
 
 const containers = container.querySelectorAll('.sub-main');
 containers.forEach((container, i) => {

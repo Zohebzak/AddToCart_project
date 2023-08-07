@@ -18,20 +18,9 @@
     left: -40px;
 }
 
-.line-22 {
-    Width: 105px;
-    Top: -308.96px;
-    Left: -40px;
-    color: #C8C8C8;
 
-}
 
-.line-19 {
-    width: 94px;
-    top: -308.9620361328125px;
-    left: 206.73806762695312px;
-    pxangle: -0 deg
-}
+
 
 .heading h4 {
     width: 126px;
@@ -58,10 +47,19 @@
     margin-bottom: -11px;
     margin-left: -37px;
     font-family: 'Inter';
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
+
+@keyframes expandAnimation {
+  from {
+    height: 0;
+  }
+  to {
+    height: 73px;
+  }
+}
 .discount-info .p3 {
     color: #000000;
     font-family: 'Inter';
@@ -76,6 +74,7 @@
     width: 340.73px;
     border-radius: 4px;
     margin: 12px 0 12px 0;
+    overflow: hidden;
 }
 
 .inner-side .p2 {
@@ -100,7 +99,6 @@
 
 .dropdown-menu {
     display: flex;
-    height: 80px;
     gap: 10px;
     margin-left: 35px;
 }
