@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 340.73px;
+    height: 18px;
+    top: -318px;
+    left: -40px;
+}
+
+.line-22 {
+    Width: 105px;
+    Top: -308.96px;
+    Left: -40px;
+    color: #C8C8C8;
+
+}
+
+.line-19 {
+    width: 94px;
+    top: -308.9620361328125px;
+    left: 206.73806762695312px;
+    pxangle: -0 deg
+}
+
+.heading h4 {
+    width: 126px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #007F61;
+    margin-left: 15px;
+    font-family: 'MetropolisNF', sans-serif;
+}
+
+.inner-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount-info {
+    margin-right: 20px;
+}
+
+.discount-info .popular {
+    color: #007F61;
+    margin-bottom: -11px;
+    margin-left: -37px;
+    font-family: 'Inter';
+    font-weight: 600;
+
+}
+
+.discount-info .p3 {
+    color: #000000;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14.46px;
+}
+
+.sub-main {
+    display: flex;
+    flex-direction: column;
+    border: 0.9px solid #007F61;
+    width: 340.73px;
+    border-radius: 4px;
+    margin: 12px 0 12px 0;
+}
+
+.inner-side .p2 {
+    color: #9F9F9F;
+    margin-top: 42px;
+    font-size: 10px;
+}
+
+.quantity-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-left: 20px;
+}
+
+.quantity-2 p {
+    font-size: 14.46px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+
+.dropdown-menu {
+    display: flex;
+    height: 80px;
+    gap: 10px;
+    margin-left: 35px;
+}
+
+.menu-no {
+    font-size: 9.04px;
+    font-family: 'Inter';
+    font-weight: 400;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-sub-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 8px;
+}
+
+.delivery {
+    width: 340.73px;
+    display: flex;
+    justify-content: space-around;
+    gap: 81px;
+}
+
+.delivery .p1 {
+    color: #007F61;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 60%;
+    font-family: 'Inter';
+}
+
+.delivery p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Inter';
+}
+
+.btn {
+    width: 340.73px;
+    background-color: #007F61;
+    border-radius: 8px, 8px, 8px, 0px;
+    height: 48px;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 600;
+    size: 16px;
+    border: none;
+}
+
+.copyrights {
+    width: 340.73px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.copyrights p {
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 12px;
+    color: #000000;
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+/* Add custom radio button styles */
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+}
+
+input[type="radio"]:checked {
+    border-color: #007F61;
+}
+
+/* Pseudo-element to create the small colored circle effect */
+input[type="radio"]:checked::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #007F61;
+}
